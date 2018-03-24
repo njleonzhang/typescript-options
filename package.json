@@ -1,0 +1,23 @@
+{
+  "name": "typescript-options",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allowjs:false": "tsc allowjs/index.ts --allowJs false --outDir 'allowjs/dist'",
+    "allowjs:true": "tsc allowjs/index.ts --allowJs true --outDir 'allowjs/dist'",
+    "allowSyntheticDefaultImports:true": "tsc allowSyntheticDefaultImports/index.ts --allowSyntheticDefaultImports true --outDir 'allowSyntheticDefaultImports/dist'",
+    "allowSyntheticDefaultImports:false": "tsc allowSyntheticDefaultImports/index.ts --allowSyntheticDefaultImports false --outDir 'allowSyntheticDefaultImports/dist'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njleonzhang/typescript-options.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njleonzhang/typescript-options/issues"
+  },
+  "homepage": "https://github.com/njleonzhang/typescript-options#readme"
+}
